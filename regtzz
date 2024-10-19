@@ -1,0 +1,168 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = ".gg/b4b2yAebaX";
+	Text = "หากมีบัคหรือฟังชั่นเสียเข้าดิสมาเลย";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 5;
+
+wait(1)
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "Syn Hub (TH)",
+    LoadingTitle = "Loading..",
+    LoadingSubtitle = "By pxsit",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil, -- Create a custom folder for your hub/game
+       FileName = "Test Hub"
+    },
+    Discord = {
+       Enabled = true,
+       Invite = "discord.gg/b4b2yAebaX", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = false, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "Untitled",
+       Subtitle = "Key System",
+       Note = "No method of obtaining the key is provided",
+       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+    }
+ })
+
+ local testTab = Window:CreateTab("Brookhaven", 4483362458) -- Title, Image
+
+ local Button = testTab:CreateButton({
+    Name = "fly gui v3 (Solara ✅)",
+    Callback = function()
+    -- The function that takes place when the button is pressed
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🏡";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+    end,
+ })
+
+ local Button = testTab:CreateButton({
+    Name = "AstroX Hub (Solara ✅)",
+    Callback = function()
+    -- The function that takes place when the button is pressed
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AstroXTeam/AstroXTeam/refs/heads/main/AstroX%20%20releases"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🏡";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+    end,
+ })
+
+ local Button = testTab:CreateButton({
+   Name = "Rochips V.1.0.5 (Solara ❌)",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()  
+   end,
+})
+
+local Button = testTab:CreateButton({
+   Name = "Sander X Hub (Solara ✅)",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/Sanderxv3.30/main/sanderx3.30')))()
+   game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🏡";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+   end,
+})
+
+local Button = testTab:CreateButton({
+   Name = "R4D Hub (Solara ✅)",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+   game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🏡";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+   end,
+})
+
+local Button = testTab:CreateButton({
+   Name = "REDz Hub (Solara ✅)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+   game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🏡";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+   end,
+})
+
+ local okayTab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
+
+ local Button = okayTab:CreateButton({
+   Name = "Yarhm Hub (Solara ✅)",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+   end,
+})
+
+local Button = okayTab:CreateButton({
+   Name = "Umperium Hub (Solara ❌)",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/imp/main/mm2"))()
+   game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🔪";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+   end,
+})
+
+local tripTab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
+
+local Button = tripTab:CreateButton({
+   Name = "Forlornicus (Solara ✅)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ForlornWindow46/Roblox-Scripts/refs/heads/main/open%20source%20auto%20parry"))()
+   game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🔪";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+   end,
+})
+
+local Button = tripTab:CreateButton({
+   Name = "Platonium.lua (Solara ✅)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+   game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🔪";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+   end,
+})
+
+local Button = tripTab:CreateButton({
+   Name = "Pitbull Hub X (Solara ✅)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/PitbullHubX/refs/heads/main/PitbullHubX.lua", true))()
+   game:GetService("StarterGui"):SetCore("SendNotification", { 
+      Title = "🔪";
+      Text = "รันเรียบร้อย/executed";
+      Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+   Duration = 5;
+   end,
+})
